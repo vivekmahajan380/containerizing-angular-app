@@ -4,7 +4,7 @@
 
 2. To install Docker you would need to Regiter @ https://hub.docker.com. 
 
-3. Once Docker is installed, open the command prompt with "containerizing-dotnet-core-mvc-app" as path
+3. Once Docker is installed, open the command prompt with "containerizing-angular-app" as path
 
 4. Run below command to create docker image
 
@@ -14,13 +14,13 @@
    
          [repository-name] : XYZ
    
-         [image-name]   :  mvc-app
+         [image-name]   :  angular-app
          
          [tag-name]     :  1.0
         
    then command to create docker image will be 
    
-   docker build -t XYZ/mvc-app:1.0 .      
+   docker build -t XYZ/angular-app:1.0 .      
    
    [Please note dot in the end of the command which denotes the path of Dockerfile in same location]
    
@@ -30,7 +30,7 @@
    
       e.g: for the image created in step 4, command to push the image to the repository would be
    
-      docker push XYZ/mvc-app:1.0
+      docker push XYZ/angular-app:1.0
    
   6. To run the Application inside the container use below command
   
@@ -38,7 +38,7 @@
    
       e.g: for the image created in step 4, command to run the container would be
    
-      docker run -d -p 8080:80 XYZ/mvc-app:1.0
+      docker run -d -p 8080:80 XYZ/angular-app:1.0
  
   7. Run below command to check the container created
       
