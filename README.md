@@ -65,9 +65,9 @@
       docker rmi [repository-name]/[image-name]:[tag-name]
      
      
-NOTE: Dockerfile in the project is very importatnt as that is used to cerate the image of the application and corresponding dependencies. 
+`NOTE`: Dockerfile in the project is very importatnt as that is used to cerate the image of the application and corresponding dependencies. 
 
-### Angularapp
+#### Angularapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.10.
 
